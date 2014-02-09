@@ -135,8 +135,29 @@ dl.persona div { margin: 15px; }
 }
 #instructor-persona img { border: 1px solid hsla( 208, 55.9%, 44.5%, 1 ); }
 
+
+/* ========== Story formats ========== */
+
+dl.story-formats dt { font-weight: normal; }
+dl.story-formats dd { margin: 20px 40px; }
+b.generic-element,
+b.specific-element {
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 107%;
+ font-weight: normal;
+ background-color: inherit;
+}
+b.generic-element { color: hsla( 2, 64.7%, 50.0%, 1 ); }
+b.specific-element { color: hsla( 120, 39.6%, 46.0%, 1 ); }
+
 #guest-persona div,
 #guest-persona dl.persona dt {
  background-color: hsla( 35, 84.5%, 54.3%, 1 );
 }
 #guest-persona img { border: 1px solid hsla( 35, 84.5%, 54.3%, 1 ); }
+
+
+/* ========== Footer ========== */
+
+.the-fine-print { font-size: 12px; }
+.the-fine-print span[property*="dct:title"] { font-style: italic; }
