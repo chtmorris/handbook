@@ -44,11 +44,15 @@ main {
 }
 
 h2.lesson-title {
-	margin-top: 0;
+	margin-top: 10px;
 }
 
+.toc-header {
+ font-size: 14px;
+ color: hsla( 0, 0.0%, 60.0%, 1 );
+}
 
-
+h2.page-title,
 h2.lesson-title {
  font-size: 32px;
  font-weight: normal;
@@ -57,6 +61,9 @@ h2.lesson-title {
  color: hsla( 0, 0.0%, 100.0%, 1 );
  background-color: hsla( 208, 55.9%, 44.5%, 1 );
 }
+
+h2.page-title { background-color: hsla( 120, 39.6%, 46.0%, 1 ); }
+h2.lesson-title { background-color: hsla( 208, 55.9%, 44.5%, 1 ); }
 
 aside.sidebar-nav {
  padding-top: 15px;
@@ -120,6 +127,17 @@ dl.faq dt {
  color: hsla( 2, 64.7%, 50.0%, 1 );
 }
 dl.faq dd { margin: 0 40px 20px; }
+
+.breadcrumb-trail {
+ font-size: 14px;
+ margin-top: 13px;
+ color: hsla( 0, 0.0%, 60.0%, 1 );
+}
+
+aside.sidebar-nav {
+ padding-top: 10px;
+ background-color: hsla( 0, 0.0%, 98.0%, 1 );
+}
 
 
 /* ========== Personas ========== */
